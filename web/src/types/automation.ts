@@ -88,7 +88,6 @@ export type ConditionField =
   | "TRACKERS_COUNT"
   | "PRIORITY"
   | "GROUP_SIZE"
-  | "FILE_COUNT"
   // Boolean fields
   | "PRIVATE"
   | "AUTO_MANAGED"

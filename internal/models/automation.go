@@ -739,7 +739,6 @@ const (
 	FieldTrackersCount ConditionField = "TRACKERS_COUNT"
 	FieldPriority      ConditionField = "PRIORITY"
 	FieldGroupSize     ConditionField = "GROUP_SIZE"
-	FieldFileCount     ConditionField = "FILE_COUNT"
 
 	// Boolean fields
 	FieldPrivate                ConditionField = "PRIVATE"
@@ -777,7 +776,7 @@ func (f ConditionField) IsNumeric() bool {
 		FieldAddedOnAge, FieldCompletionOnAge, FieldLastActivityAge,
 		FieldRatio, FieldProgress, FieldAvailability,
 		FieldDlSpeed, FieldUpSpeed,
-		FieldNumSeeds, FieldNumLeechs, FieldNumComplete, FieldNumIncomplete, FieldTrackersCount, FieldFileCount,
+		FieldNumSeeds, FieldNumLeechs, FieldNumComplete, FieldNumIncomplete, FieldTrackersCount,
 		FieldSystemHour, FieldSystemMinute, FieldSystemDayOfWeek, FieldSystemDay, FieldSystemMonth, FieldSystemYear:
 		return true
 	default:
